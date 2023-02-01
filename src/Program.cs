@@ -25,7 +25,7 @@ void ShowFilesOptions(string directory)
         filesListOptions.Add(file.Name);
     }
 
-    System.Console.WriteLine(currentLocation);
+    System.Console.WriteLine(directory);
     var selectedIndex = Console.Selector(filesListOptions);
 
     var selectedItem = filesList[selectedIndex];
